@@ -17,11 +17,16 @@ Using Pelican, a static site generator, I began to create a personal website fro
 6. The website was, then, ready to be published. Within the output directory,
 
 <code>git init
+
 git add .
+
 git commit -m "first commit"
+
 git remote add origin remote repository URL
+
 git remote -v
-git push origin master
+
+git push origin master</code>
 
 7. Then push output to GitHub Pages after creating gh-pages branch,
 
