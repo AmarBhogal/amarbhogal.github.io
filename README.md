@@ -4,8 +4,9 @@ Using Pelican, a static site generator, I began to create a personal website fro
 
 ## Workflow
 1. Firstly I installed Pelican using,
-
-``` python -m pip install "pelican[markdown]" ```
+```
+python -m pip install "pelican[markdown]" 
+```
 
 2. Executed pelican-quickstart. I made sure to host on GitHub.
 
