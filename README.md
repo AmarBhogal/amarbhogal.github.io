@@ -2,8 +2,6 @@
 
 Using Pelican, a static site generator, I began to create a personal website from scratch. This is my first attempt at creating a website so everything I have managed to build so far was, effectively, learning on the job. After much stress, research and time, this is where I have got to currently. I am yet to push the website via GitHub actions, in order to automate the workflow of the website but, that is my next goal.
 
-![screenshot](screenshot.png)
-
 ## Workflow
 1. Firstly I installed Pelican using,
 ```
