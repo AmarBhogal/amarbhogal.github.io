@@ -15,22 +15,35 @@ Using Pelican, a static site generator, I began to create a personal website fro
 5. Then, I linked the images required into the repective, pages and articles.
 
 6. The website was, then, ready to be published. Within the output directory,
+
 <p><code>git init
+
 <br>git add .
+
 <br>git commit -m "first commit"
+
 <br>git remote add origin remote repository URL
+
 <br>git remote -v
+
 <br>git push origin master</code></p>
 
 7. Then push output to GitHub Pages after creating gh-pages branch,
+
 <p><code>git checkout -b gh-pages
+
 <br>git push origin gh-pages</code></p>
 
 8. Finally I decided to create a source branch so the code/content could be viewed also. Within the portfolio directory,
+
 <p><code>git checkout -b source
+
 <br>git init
+
 <br>git add .
+
 <br>git commit -m "source"
+
 <br>git push origin source</code></p>
 
 
