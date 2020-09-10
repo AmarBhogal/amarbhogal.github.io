@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Amardeep Bhogal - HTML</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Amardeep Bhogal </a></h1>
+                <nav><ul>
+    
+                        <li><a href="/pages/about-me.html">About Me</a></li>
+    
+                        <li><a href="/pages/contact.html">Contact</a></li>
+                    <li class="active"><a href="/category/html.html">HTML</a></li>
+                    <li><a href="/category/linux.html">Linux</a></li>
+                    <li><a href="/category/python.html">Python</a></li>
+                </ul>
+                </nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/website-portfolio.html">Website Portfolio</a></h1>
+<footer class="post-info">
+        <span>Sat 05 September 2020</span>
+
+</footer><!-- /.post-info --><h1>Creating a Website Portfolio using Pelican</h1>
+<p>Using Pelican, a static site generator, I began to create a personal website from scratch. This is my first attempt at creating a website so everything I have managed to build so far was, effectively, learning on the job. After much stress, research and time, this is where I have got to currently. I am yet to push the website via GitHub actions, in order to automate the workflow of the website but, that is my next goal. </p>
+<p>Find the <a href="">GitHub Repository Link</a> for the source and the output of the websites files. </p>
+<h2>Workflow</h2>
+<ol>
+<li>Firstly I installed Pelican using,
+<p><code>python -m pip install "pelican[markdown]"</code></p></li>
+<li>Executed pelican-quickstart. I made sure to host on GitHub. </li>
+<li>I created a page for the About Me section, while also creating articles to describe my projects with Bash and Python.</li>
+<li>After creating these pages and articles, I created the <em>images</em> directory in the <em>content</em> directory. In the pelicanconfig.py, I edited STATIC_PATHS = [ 'IMAGES' ].</li>
+<li>Then, I linked the images required into the repective, pages and articles. </li>
+<li>The website was, then, ready to be published. Within the output directory, 
+<p><code>git init
+<br>git add .
+<br>git commit -m "first commit"
+<br>git remote add origin remote repository URL
+<br>git remote -v
+<br>git push origin master</code></p></li>
+<li>Then push output to GitHub Pages after creating gh-pages branch,
+<p><code>git checkout -b gh-pages
+<br>git push origin gh-pages</code></p></li>
+<li>Finally I decided to create a source branch so the code/content could be viewed also. Within the portfolio directory,
+<p><code>git checkout -b source
+<br>git init
+<br>git add .
+<br>git commit -m "source"
+<br>git push origin source</code></p></li>
+</ol>                </article>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://github.com/AmarBhogal">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/amardeep-bhogal/">LinkedIn</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
