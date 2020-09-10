@@ -4,6 +4,7 @@ Using Pelican, a static site generator, I began to create a personal website fro
 
 ## Workflow
 1. Firstly I installed Pelican using,
+
 <code>python -m pip install "pelican[markdown]"</code>
 
 2. Executed pelican-quickstart. I made sure to host on GitHub.
@@ -30,20 +31,20 @@ git push origin master</code>
 
 7. Then push output to GitHub Pages after creating gh-pages branch,
 
-<p><code>git checkout -b gh-pages
+<code>git checkout -b gh-pages
 
-<br>git push origin gh-pages</code></p>
+git push origin gh-pages</code>
 
 8. Finally I decided to create a source branch so the code/content could be viewed also. Within the portfolio directory,
 
-<p><code>git checkout -b source
+<code>git checkout -b source
 
-<br>git init
+git init
 
-<br>git add .
+git add .
 
-<br>git commit -m "source"
+git commit -m "source"
 
-<br>git push origin source</code></p>
+git push origin source</code>
 
 
