@@ -2,9 +2,9 @@
 
 Using Pelican, a static site generator, I began to create a personal website from scratch. This is my first attempt at creating a website so everything I have managed to build so far was, effectively, learning on the job. After much stress, research and time, this is where I have got to currently. I am yet to push the website via GitHub actions, in order to automate the workflow of the website but, that is my next goal.
 
-#Workflow
+## Workflow
 1. Firstly I installed Pelican using,
-<p><code>python -m pip install "pelican[markdown]"</code></p>
+<code>python -m pip install "pelican[markdown]"</code>
 
 2. Executed pelican-quickstart. I made sure to host on GitHub.
 
@@ -16,17 +16,12 @@ Using Pelican, a static site generator, I began to create a personal website fro
 
 6. The website was, then, ready to be published. Within the output directory,
 
-<p><code>git init
-
-<br>git add .
-
-<br>git commit -m "first commit"
-
-<br>git remote add origin remote repository URL
-
-<br>git remote -v
-
-<br>git push origin master</code></p>
+<code>git init
+<code>git add .
+<code>git commit -m "first commit"
+<code>git remote add origin remote repository URL
+<code>git remote -v
+<code>git push origin master
 
 7. Then push output to GitHub Pages after creating gh-pages branch,
 
