@@ -27,7 +27,7 @@ My current goal is to continue to develop my skills with Python and AWS services
 <br>• Developed knowledge and understanding of the programming language Python.
 <br>• Created and edited Python scripts for use with various AWS services.
 <br>• Experience of SQL fundamentals.
-<br>• Working knowledge of CI/CD concepts.
+<br>• Working knowledge of CI/CD concepts and Infrastructure as Code. 
 <br>• An understanding of Agile development and methodology.
 <br>• Working experience with Linux System administration and Linux command line to support AWS.
 <br>• Including managing users and groups, changing permissions and connecting to AWS instances via SSH.
