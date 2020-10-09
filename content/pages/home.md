@@ -10,12 +10,12 @@ My passion for technology and the desire to start a career in the industry led m
 
 Since I was 18, I have been helping my dad at the family business (DIY shop) where I took on the responsibility to diagnose, troubleshoot and resolve a range of technical issues. This gave me experience in researching and problem-solving issues on my own and the confidence needed to tackle new problems in the future. I pride myself as a very self-motivated and a hardworking individual, who once is given a task, will strive to complete it without any hesitation. I have a lot of experience working in teams, which has allowed me to develop excellent communication skills and a great level of empathy that helps me work with people from all different types of backgrounds. All my experiences, including AWS re/Start, have made me a strong communicator and helped develop my problem-solving skills. Furthermore, my final year project, during my degree, has massively helped my research skills and my ability to ask the right questions. 
 
-My current goal is to continue to develop my skills with Python and AWS services, while I wish to learn more about AI and machine learning.  I am motivated to take the next step to further my career by undertaking the AWS Cloud Practitioner Exam and becoming a Cloud Engineer. I am currently keen to join a company that I can be of value to, by bringing my enthusiasm to learn, to face new challenges and to contribute to company targets.
+My current goal is to continue to develop my skills with Python and AWS services, while I wish to learn more about AI and machine learning.  Having passed the AWS Cloud Practitioner Certification, I am motivated to take the next steps, to further my career, by becoming a Cloud Engineer and studying for the AWS Solutions Architect Certification. I am currently keen to join a company that I can be of value to, by bringing my enthusiasm to learn, to face new challenges and to contribute to company targets.
 
 
 
 #__Skills__
-<img src="https://img.icons8.com/color/96/000000/amazon-web-services.png"/> <img src="https://img.icons8.com/color/96/000000/linux.png"/> <img src="https://img.icons8.com/color/96/000000/python.png"/> <img src="https://img.icons8.com/plasticine/100/000000/bash.png"/> <img src="https://img.icons8.com/plasticine/100/000000/html.png"/> <img src="../images/GitIcon.png" width="96"/>  <img src="../images/github.png" width="96"/>
+<img src="../images/AWSCP.png" width="96"/> <img src="https://img.icons8.com/color/96/000000/linux.png"/> <img src="https://img.icons8.com/color/96/000000/python.png"/> <img src="https://img.icons8.com/plasticine/100/000000/bash.png"/> <img src="https://img.icons8.com/plasticine/100/000000/html.png"/> <img src="../images/GitIcon.png" width="96"/>  <img src="../images/github.png" width="96"/>
 
 
 #__Experience__
