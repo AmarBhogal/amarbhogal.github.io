@@ -21,25 +21,85 @@
                     <li><a href="/category/html.html">HTML</a></li>
                     <li><a href="/category/linux.html">Linux</a></li>
                     <li><a href="/category/python.html">Python</a></li>
+                    <li><a href="/category/terraform.html">Terraform</a></li>
                 </ul>
                 </nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/tic-tac-toe-project.html">Tic Tac Toe Project</a></h1>
+                    <h1 class="entry-title"><a href="/website-portfolio.html">Website Portfolio</a></h1>
 <footer class="post-info">
-        <span>Sun 06 September 2020</span>
+        <span>Tue 06 October 2020</span>
 
-</footer><!-- /.post-info --><h2>Tic Tac Toe Written in Python</h2>
-<p>After some weeks, I managed to code the game Tic Tac Toe in Python. You can find the code in the link below. Have fun!</p>
-<p><a href = "https://github.com/AmarBhogal/Tic-tac-toe.git">GitHub Repository Link</a></p>
-<p>Example:</p>
-<p><img src="../images/TTT.png"> </p>                </article>
+</footer><!-- /.post-info --><h1>Creating a Website Portfolio using Pelican</h1>
+<p>Using Pelican, a static site generator, I began to create a personal website from scratch. This is my first attempt at creating a website so everything I have managed to build so far was, effectively, learning on the job. After much stress, research and time, this is where I have got to currently. I am yet to push the website via GitHub actions, in order to automate the workflow of the website but, that is my next goal. </p>
+<p>Find the <a href="https://github.com/AmarBhogal/amarbhogal.github.io">GitHub Repository Link</a> for the source and the output of the websites files. </p>
+<h2>Workflow</h2>
+<ol>
+<li>Firstly I installed Pelican using,
+<p><code>python -m pip install "pelican[markdown]"</code></p></li>
+<li>Executed pelican-quickstart. I made sure to host on GitHub. </li>
+<li>I created a page for the About Me section, while also creating articles to describe my projects with Bash and Python.</li>
+<li>After creating these pages and articles, I created the <em>images</em> directory in the <em>content</em> directory. In the pelicanconfig.py, I edited STATIC_PATHS = [ 'IMAGES' ].</li>
+<li>Then, I linked the images required into the repective, pages and articles. </li>
+<li>The website was, then, ready to be published. Within the output directory, 
+<p><code>git init
+<br>git add .
+<br>git commit -m "first commit"
+<br>git remote add origin remote repository URL
+<br>git remote -v
+<br>git push origin master</code></p></li>
+<li>Then push output to GitHub Pages after creating gh-pages branch,
+<p><code>git checkout -b gh-pages
+<br>git push origin gh-pages</code></p></li>
+<li>Finally I decided to create a source branch so the code/content could be viewed also. Within the portfolio directory,
+<p><code>git checkout -b source
+<br>git init
+<br>git add .
+<br>git commit -m "source"
+<br>git push origin source</code></p></li>
+</ol>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/first-terraform-project.html" rel="bookmark"
+                           title="Permalink to First Terraform Project">First Terraform Project</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <span>Mon 05 October 2020</span>
+
+</footer><!-- /.post-info -->                <h2>Using Terraform with AWS</h2>
+<p>My first time messing around with terraform. The code creates a VPC in AWS and launches an apache server on a Ubuntu AMI. There are 9 parts to the code. </p>
+<p>You will need to enter your own access key and secret access key within the first …</p>
+                <a class="readmore" href="/first-terraform-project.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/tic-tac-toe-project.html" rel="bookmark"
+                           title="Permalink to Tic Tac Toe Project">Tic Tac Toe Project</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <span>Mon 05 October 2020</span>
+
+</footer><!-- /.post-info -->                <h2>Tic Tac Toe Written in Python</h2>
+<p>After some weeks, I managed to code the game Tic Tac Toe in Python. You can find the code in the link below. Have fun!</p>
+<p><a href = "https://github.com/AmarBhogal/Tic-tac-toe.git">GitHub Repository Link</a></p>
+<p>Example:</p>
+<p><img src="../images/TTT.png"> </p>
+                <a class="readmore" href="/tic-tac-toe-project.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -49,28 +109,12 @@
 
                 <div class="entry-content">
 <footer class="post-info">
-        <span>Sat 05 September 2020</span>
+        <span>Thu 01 October 2020</span>
 
 </footer><!-- /.post-info -->                <h2>Monopoly Jail Dice Roll</h2>
 <p>I created a monopoly double dice roll to determine the outcome if a player was stuck in jail on their turn. This simulates the process and determines the outcome of the roll.
 Lets see if you can make it out of jail. Find the code in …</p>
                 <a class="readmore" href="/dice-roll-project.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/website-portfolio.html" rel="bookmark"
-                           title="Permalink to Website Portfolio">Website Portfolio</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Sat 05 September 2020</span>
-
-</footer><!-- /.post-info -->                <h1>Creating a Website Portfolio using Pelican</h1>
-<p>Using Pelican, a static site generator, I began to create a personal website from scratch. This is my first attempt at creating a website so everything I have managed to build so far was, effectively, learning on the job. After much stress, research and …</p>
-                <a class="readmore" href="/website-portfolio.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
             </ol><!-- /#posts-list -->
