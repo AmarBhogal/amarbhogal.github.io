@@ -1,5 +1,5 @@
 Title: Contact
-Date: 2020-10-05 15:15
+Date: 2020-10-05
 Author: Amardeep Bhogal
 
 ## Contact Details

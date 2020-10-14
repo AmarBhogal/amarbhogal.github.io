@@ -1,5 +1,5 @@
 Title: About Me
-Date: 2020-10-05 15:15
+Date: 2020-10-05
 Author: Amardeep Bhogal
 <img align="right" src="profile.jpg" width="140">
 ##
@@ -10,7 +10,7 @@ My passion for technology and the desire to start a career in the industry led m
 
 Since I was 18, I have been helping my dad at the family business (DIY shop) where I took on the responsibility to diagnose, troubleshoot and resolve a range of technical issues. This gave me experience in researching and problem-solving issues on my own and the confidence needed to tackle new problems in the future. I pride myself as a very self-motivated and a hardworking individual, who once is given a task, will strive to complete it without any hesitation. I have a lot of experience working in teams, which has allowed me to develop excellent communication skills and a great level of empathy that helps me work with people from all different types of backgrounds. All my experiences, including AWS re/Start, have made me a strong communicator and helped develop my problem-solving skills. Furthermore, my final year project, during my degree, has massively helped my research skills and my ability to ask the right questions. 
 
-My current goal is to continue to develop my skills with Python and AWS services, while I wish to learn more about AI and machine learning.  Having passed the AWS Cloud Practitioner Certification, I am motivated to take the next steps, to further my career, by becoming a Cloud Engineer and studying for the AWS Solutions Architect Certification. I am currently keen to join a company that I can be of value to, by bringing my enthusiasm to learn, to face new challenges and to contribute to company targets.
+My current goal is to continue to develop my skills with Python and AWS services, while I wish to learn more about AI and machine learning.  Having passed the AWS Cloud Practitioner Certification, I am motivated to take the next steps, to further my career, by becoming a Cloud Engineer and studying for the AWS Solutions Architect Certification. In addition, I have begun to study for the Microsoft Azure Fundametals Certification. I am keen to join a company that I can be of value to, by bringing my enthusiasm to learn, to face new challenges and to contribute to company targets.
 
 
 
